@@ -3,7 +3,7 @@ $(document).ready (function () {
     if (winner) {
       $("#resultLabel").text("Winner: " + winner);
     } else {
-      $("#resultLabel").text("Draw!");
+      $("#resultLabel").text("Draw! Get a life!");
     }
   });
   $("ul").on("click", "li", view.onClick.bind(view));
