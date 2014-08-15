@@ -46,16 +46,16 @@ li:hover {
   background: yellow;
 }
 
-li.x:after {
+li.x {
   display: block;
-  content: "X";
+  content: url("cat1.png");
   font-size: 90px;
   text-align: center;
 }
 
-li.o:after {
+li.o {
   display: block;
-  content: "O";
+  content: url("cat2.png");
   font-size: 90px;
   text-align: center;
 }
